@@ -2,7 +2,7 @@
 @import "variables";
 @import "mixins";
 
-/*! Spectre.css v#{$version} | MIT License | github.com/picturepan2/spectre */
+/*! AMP mini Spectre v#{$version} | MIT License | github.com/mareksybilak/mini-amp-spectre */
 // Reset and dependencies
 @import "normalize";
 @import "base";
@@ -50,4 +50,8 @@
 
 // Experimentals
 @import "off-canvas";
+
+// Icons
+@import "icons/icons-core";
+@import "icons/icons-navigation";
 
