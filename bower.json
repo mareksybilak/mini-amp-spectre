@@ -1,9 +1,9 @@
 {
   "name": "mini-amp-spectre",
   "version": "0.0.1",
-  "description": "Spectre.css, AMP version",
-  "homepage": "http://picturepan2.github.io/spectre",
-  "repository": "picturepan2/spectre",
+  "description": "AMPed and reduced version of Spectre.css",
+  "homepage": "https://github.com/mareksybilak/mini-amp-spectre",
+  "repository": "mareksybilak/mini-amp-spectre",
   "license": "MIT",
   "author": "Yan Zhu <picturepan2@hotmail.com>, Marek Sybilak <marek.sybilak@datalog.pl>",
   "main": "dist/spectre.css",
