@@ -6,3 +6,5 @@ node_modules/
 !.gitattributes
 !.hound.yml
 !.scss-lint.yml
+
+package-lock.json
