@@ -21,8 +21,11 @@ $secondary-color-dark: #ED553B !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 
 // Gray colors
+
 $dark-color: #303742 !default;
 $light-color: #fff !default;
+$white-color : #fff !default;
+$black-color : #000 !default;
 $gray-color: lighten($dark-color, 55%) !default;
 $gray-color-dark: darken($gray-color, 30%) !default;
 $gray-color-light: lighten($gray-color, 20%) !default;
@@ -49,7 +52,8 @@ $link-color-light: lighten($link-color, 10%) !default;
 
 // Fonts
 // Credit: https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
-$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+//$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+$base-font-family: 'Open Sans Condensed' , sans-serif !default;
 $mono-font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace !default;
 $fallback-font-family: "Helvetica Neue", sans-serif !default;
 // $cjk-zh-hans-font-family: $base-font-family, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", $fallback-font-family !default;
@@ -57,6 +61,7 @@ $fallback-font-family: "Helvetica Neue", sans-serif !default;
 // $cjk-jp-font-family: $base-font-family, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, $fallback-font-family !default;
 // $cjk-ko-font-family: $base-font-family, "Malgun Gothic", $fallback-font-family !default;
 $body-font-family: $base-font-family, $fallback-font-family !default;
+$secondary-font-family : 'Cardo', serif !default;
 
 // Unit sizes
 $unit-o: .05rem !default;

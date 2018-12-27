@@ -9,6 +9,10 @@
 
 @include text-color-variant(".text-dark", $body-font-color);
 
+@include text-color-variant(".text-white", $white-color);
+
+@include text-color-variant(".text-black", $black-color);
+
 @include text-color-variant(".text-success", $success-color);
 
 @include text-color-variant(".text-warning", $warning-color);
@@ -23,6 +27,10 @@
 @include bg-color-variant(".bg-dark", $dark-color);
 
 @include bg-color-variant(".bg-gray", $bg-color);
+
+@include bg-color-variant(".bg-white", $white-color);
+
+@include bg-color-variant(".bg-black", $black-color);
 
 @include bg-color-variant(".bg-success", $success-color);
 

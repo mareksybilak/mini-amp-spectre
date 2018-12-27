@@ -12,6 +12,55 @@
   text-align: center;
 }
 
+@media (max-width: $size-lg) {
+  .text-center-lg {
+    text-align: center;
+  }
+  .text-right-lg {
+    text-align: right;
+  }
+  .text-left-lg {
+    text-align: left;
+  }
+ }
+
+@media (max-width: $size-md) {
+  .text-center-md {
+    text-align: center;
+  }
+  .text-right-md {
+    text-align: right;
+  }
+  .text-left-md {
+    text-align: left;
+  }
+ }
+
+@media (max-width: $size-sm) {
+  .text-center-sm {
+    text-align: center;
+  }
+  .text-right-sm {
+    text-align: right;
+  }
+  .text-left-sm {
+    text-align: left;
+  }
+
+}
+
+@media (max-width: $size-xs) {
+  .text-center-xs {
+    text-align: center;
+  }
+  .text-right-xs {
+    text-align: right;
+  }
+  .text-left-xs {
+    text-align: left;
+  }
+ }
+
 .text-justify {
   text-align: justify;
 }
